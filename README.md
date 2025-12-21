@@ -3,6 +3,7 @@ Installation
 Ensure Python 3.8+ is installed, then run:
 
 chmod +x *.sh
+
 ./install.sh
 
 ==============================================
