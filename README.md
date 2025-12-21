@@ -6,6 +6,7 @@ chmod +x install.sh
 ./install.sh
 
 ==============================================
+
 Usage
 
 1. Cross-validation (training):
@@ -21,6 +22,7 @@ Usage
 ./predict.sh /path/to/new_data.csv [optional_model_directory]
 
 ==============================================
+
 Notes
 
 1. Input CSV files should contain protein sequences
