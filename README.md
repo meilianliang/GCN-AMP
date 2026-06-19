@@ -54,7 +54,7 @@ For example:
   ```sh
   ./test.sh Antiviral_test.csv outputs/models/multi_functions/Antiviral_best_model.pth
   ```
-**Note:** Before running the test script, copy mean_esm2.npy and std_esm2.npy from the desired task folder in GCN-AMP/normalization_stats/ (e.g., normalization_stats/antiviral/) to GCN-AMP/data/.
+**Note:** Before running the test script, copy mean_esm.npy and std_esm.npy from the desired task folder in GCN-AMP/normalization_stats/ (e.g., normalization_stats/antiviral/) to GCN-AMP/data/.
 
 
 ### 3.Prediction: 
