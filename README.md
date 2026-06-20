@@ -52,7 +52,7 @@ For example:
 * using the example test file (Antiviral_test.csv) and the trained model ( Antiviral_best_model.pth ) :
 
   ```sh
-  ./test.sh Antiviral_test.csv outputs/models/multi_functions/Antiviral_best_model.pth
+  ./test.sh "test data/test_Antiviral.csv" outputs/models/multi_functions/Antiviral_best_model.pth
   ```
 **Note:** Before running the test script, copy mean_esm.npy and std_esm.npy from the desired task folder in GCN-AMP/normalization_stats/ (e.g., normalization_stats/antiviral/) to GCN-AMP/data/.
 
